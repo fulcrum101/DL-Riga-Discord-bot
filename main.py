@@ -5,7 +5,7 @@ class MyClient(discord.Client):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-        self.role_message_id = 0
+        self.role_message_id = 1009935788693266493
         self.emoji_to_role = {
             discord.PartialEmoji(name='🎓'): 1009923229365846037, # mentor
             discord.PartialEmoji(name='🔍'): 1009923416528269473, # search team
